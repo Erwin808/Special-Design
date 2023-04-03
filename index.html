@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <!-- Render all element normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="con">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#4caf50"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#ffeb3b"></li>
+            <li data-color="#f44336"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="show-bullets">
+            <span class="yes active" data-bullets="yes">Yes</span>
+            <span class="no" data-bullets="no">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+
+    <!-- Start Nav bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+    </div>
+    <!-- End Nav bullets -->
+
+    <!-- Start Langding page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <header>
+        <div class="container">
+          <div class="logo"><span>Special</span> Design</div>
+          <div class="links-container">
+            <ul class="list">
+              <li><a href="#" class="active" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section="">Exibit</a></li>
+              <li><a href="#" data-section="">Hotels</a></li>
+              <li><a href="#" data-section="">Networking</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <button class="register">Register</button>
+        </div>
+      </header>
+      <div class="introduction-text">
+        <h1>THE PREMIER <span>GATHERING</span></h1>
+        <h3>OF DIGITAL MARCETEERS ON PLANET EARTH!</h3>
+        <p>March 31 -April 2, 2020 | San Diego, CA</p>
+        <a href="#">Watch 2019 Recap</a>
+        <a href="#">Get Your Tickets Now</a>
+      </div>
+    </div>
+    <!-- End Langding page -->
+    <!-- Start About us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi itaque odit, voluptatibus possimus eum! Suscipit quaerat similique quidem, at aperiam officia officiis id amet repellat. Repellat et alias in.</p>
+        </div>
+        <div class="image-box">
+          <img src="img/people-putting-puzzle-pieces-together.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End About us -->
+    <!-- Start Our skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our skill</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="20%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Java Script</div>
+          <div class="skill-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="45%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="10%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="img/20.jpg" alt="Image one">
+          <img src="img/21.jpg" alt="Image two">
+          <img src="img/22.jpg" alt="Image three">
+          <img src="img/23.jpg" alt="Image four">
+          <img src="img/24.jpg" alt="Image five">
+          <img src="img/25.jpg" alt="">
+          <img src="img/26.jpg" alt="">
+          <img src="img/27.jpg" alt="">
+          <img src="img/28.jpg" alt="">
+          <img src="img/29.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius optio dignissimos eum voluptatibus et. Esse soluta cum ut voluptate voluptatem ipsa facilis assumenda illum, tempora, consequatur obcaecati, placeat quod reiciendis?</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius optio dignissimos eum voluptatibus et. Esse soluta cum ut voluptate voluptatem ipsa facilis assumenda illum, tempora, consequatur obcaecati, placeat quod reiciendis?</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-content">
+          <div class="year">2021</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius optio dignissimos eum voluptatibus et. Esse soluta cum ut voluptate voluptatem ipsa facilis assumenda illum, tempora, consequatur obcaecati, placeat quod reiciendis?</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Your JS knowledge will be challenged in this fun project, where you'll build a two-player game. You'll write the logic for the game and how to test for win conditions an excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 0 developers building projects, reviewing code, and helping each other get better.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Featur -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="ft-box">
+          <img src="img/icon_01.png" alt="">
+          <h4>marketing</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="ft-box">
+          <img src="img/icon_02.png" alt="">
+          <h4>success focus</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="ft-box">
+          <img src="img/icon_03.png" alt="">
+          <h4>analytics</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="ft-box">
+          <img src="img/icon_04.png" alt="">
+          <h4>manufacturing</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="ft-box">
+          <img src="img/icon_05.png" alt="">
+          <h4>data statistics</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="ft-box">
+          <img src="img/icon_06.png" alt="">
+          <h4>justice</h4>
+          <p>We are professional marketeers, we will do anything you imagine in on time.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Featur -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>I am very happy with product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="img/erwin.jpeg" alt="">
+            <h4>Erwin Smith</h4>
+            <p>CEO at company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>I am very happy with product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="img/ahmed.jpeg" alt="">
+            <h4>Ahmed Omar</h4>
+            <p>CEO at company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>I am very happy with product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="img/leonardo.jpeg" alt="">
+            <h4>Leonardo Dicaprio</h4>
+            <p>CEO at company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your name" name="name">
+            <input type="number" placeholder="Your number" name="number">
+            <input type="email" placeholder="Your Email" name="email">
+            <input type="text" placeholder="Subject" name="subject">
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+
+    <!-- Start footer -->
+    <footer>Created width love by <span>Erwin Smith</span></footer>
+    <!-- Start footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
